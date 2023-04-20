@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#141113ce;
+    color: white;
+    background-image: url(../img/fondo-marketing.jpg);
+    background-repeat: no-repeat; 
+    background-position: end;
+    background-size: cover;
+    
+}
+
+.create {
+    text-align: center;
+    
+    
+}
+
+
+#empresaName {
+    color: rgb(155, 155, 67);
+    margin: 0 auto;
+    -webkit-text-stroke: 2px black;
+    font-weight: bolder;
+    text-align: left;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#intro {
+    
+    margin-top: 30px;
+}
+
+
+#descripcion h2 {
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    -webkit-text-stroke: 2px black;
+}
+
+.descripcion {
+    background-color: rgba(99,99,99,.8);
+    padding: 5px;
+    margin: 30px;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+
+h3 {
+    -webkit-text-stroke: 2px black;
+    color: white;
+    font-size: 30px;
+}
+
+footer {
+    margin-top: 5rem;
+    background-color: black;
+    color: white;
+    
+}
+
+.icon {
+    display: inline;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.mapa {
+    vertical-align: middle;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
