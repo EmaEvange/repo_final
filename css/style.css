@@ -18,21 +18,17 @@ body {
     
 }
 
-.create {
+main {
+    width: 100%;
+    height: 100%;
+}
+
+#container-all {
+    padding-top: 30px;
     text-align: center;
     
-    
-}
-
-
-#empresaName {
-    color: rgb(155, 155, 67);
-    margin: 0 auto;
-    -webkit-text-stroke: 2px black;
-    font-weight: bolder;
-    text-align: left;
-}
-
+    z-index: 1;
+  }
 
 a {
     text-decoration: none;
@@ -40,7 +36,7 @@ a {
 }
 
 #intro {
-    
+    padding-top: 50px;
     margin-top: 30px;
 }
 
@@ -61,6 +57,14 @@ a {
     font-size: 20px;
 }
 
+#descripcion {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 10px;
+    width: 60%;
+}
 
 h3 {
     -webkit-text-stroke: 2px black;
@@ -86,3 +90,4 @@ footer {
     padding-top: 20px;
     margin-bottom: 5px;
 }
+

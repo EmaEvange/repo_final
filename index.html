@@ -3,10 +3,7 @@
 
 <head>
     
-    <title>MktgUs</title>
-    
-    
-   
+    <title>MarketingUs</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
@@ -23,42 +20,38 @@
 </head>
 
 <body>
-    <main class="create" id="create">
-        <header>
-            <div class="conteiner">
-                <div class="row">
-                    <div class="col-12">
-                        <nav class="menu">
+    <main >
+        <header id="menu">
+                        <div class="logo-header">
+                            <img id="logo" src="img/logo.png" alt="logo empresa">
+                        </div>
+                        <nav id="nav-bar">
                             <ul>
-                                <li><img id="logo" src="img/logo.png" alt="logo empresa"></li>
                                 <li><a href="#empresa">Nuestra empresa</a></li>
                                 <li><a href="#nosotros">¿Quiénes somos?</a></li>
                                 <li><a href="#contacto">Contacto</a></li>
-                                <li><a href="#proceso">Cotizaciónes</a></li>
+                                <li><a href="#proceso">Cotizaciones</a></li>
                             </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
+                        </nav>    
         </header>
 
-        <article>
+        <article id="container-all">
             <section class="intro" id="intro">
-                <div class="conteiner">
+                <div id="descripcion">
+                            <h3>Potencia tus productos y servicios, hace que tus clientes vean tus anuncios</h3>
+                            <h2>Agencia de Marketing Digital</h2>
+                    </div>
+                <div class="conteiner"  id="empresa">
                     <div class="row">
                         <div class="col-2"></div>
                         <div class="col-8 ">
-                            <div id="descripcion">
-                            <h3>Potencia tus productos y servicios, hace que tus clientes vean tus anuncios</h3>
-                            <h2>Agencia de Marketing Digital</h2>
-                            </div>
-                            <div class="descripcion" id="empresa">
+                            <div class="descripcion">
                             <h3>Nuestra empresa</h3>
-                            <p>MarketinUs es una empresa fundada en 2012 por quien hoy es el actual content manager de la misma, Emanuel Evangelista. Ofrecemos soluciones integrales para tu negocio y analizamos tus resultados para estar en constante evolución. Publicamos en Youtube Ads, Facebook Ads e Instagram Ads.<br>Brindamos un servicio personalizado que se ajuste a tus necesidades y las de tu empresa.</p>
+                            <p>MarketinUs es una empresa fundada en 2012 por quien hoy es el actual content manager de la misma, Homer J. Simpson. Ofrecemos soluciones integrales para tu negocio y analizamos tus resultados para estar en constante evolución. Publicamos en Youtube Ads, Facebook Ads e Instagram Ads.<br>Brindamos un servicio personalizado que se ajuste a tus necesidades y las de tu empresa.</p>
                             </div>
                             <div class="descripcion" id="nosotros">
                             <h3>¿Quiénes somos?</h3>
-                            <p>El content manager altamente calificado, Emanuel Evangelista quien cuenta con 15 años de experiencia en el rubro, lidera nuestro equipo de diseñadores, analistas y redactores entre otros profesionales que forman parte de esta familia de MktgUs.</p>
+                            <p>El content manager altamente calificado, Homer J. Simpson quien cuenta con 15 años de experiencia en el rubro, lidera nuestro equipo de diseñadores, analistas y redactores entre otros profesionales que forman parte de esta familia de MarketingUs.</p>
                             </div>
                             <div class="col-2"></div>
                         </div>
@@ -118,7 +111,7 @@
                                     <input type="email" id="email" name="email" required>
                                     <label for="telefono">Teléfono:</label>
                                     <input type="text" id="telefono" name="telefono" pattern="[0-9]{10}" required>
-                
+                                </div>
                                     <!-- Paso 3 -->
                                     <div class="step" id="step-3">
                                         <label for="servicio">Serivicio</label>
@@ -134,14 +127,10 @@
                 
                                         <input type="submit" value="enviar">
                                     </div>
-                                </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                
-                    </form>
-                </div>
-                </div>
-                </div>
             </section>
 
             <footer>
@@ -174,8 +163,9 @@
                         </div>
                         <div class="col"></div>
                     </div>
-            </footer>
-        </article>
+            </div>
+        </footer>
+    </article>
 
     </main>
 </body>

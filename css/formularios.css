@@ -58,9 +58,11 @@
 
   #proceso {
     background-color: #9ca9b8;
-    margin: 0 10% 0 10%;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 10px;
     color: black;
+
   }
 
   .titulosFormularios {
